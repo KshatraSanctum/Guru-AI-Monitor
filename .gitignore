@@ -1,0 +1,6 @@
+# Ignore local databases, secrets, and cache
+guru_memory.db
+*.db
+.env
+venv/
+__pycache__/
