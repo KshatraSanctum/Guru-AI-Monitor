@@ -1,5 +1,4 @@
 # Guru AI Monitor: Tracing the Agentic State Machine
-**Agents of SigNoz Hackathon 2026 Submission**
 
 Guru AI Monitor is an autonomous, stateful Discord study agent engineered for rigorous academic preparation. Moving beyond standard stateless LLM wrappers, this system operates on an asynchronous event loop backed by an embedded SQLite state machine, with every execution path fully instrumented using OpenTelemetry and exported to SigNoz.
 
