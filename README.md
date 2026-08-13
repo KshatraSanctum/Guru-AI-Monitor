@@ -3,10 +3,6 @@
 
 Guru AI Monitor is an autonomous, stateful Discord study agent engineered for rigorous academic preparation. Moving beyond standard stateless LLM wrappers, this system operates on an asynchronous event loop backed by an embedded SQLite state machine, with every execution path fully instrumented using OpenTelemetry and exported to SigNoz.
 
-### 🏆 Hackathon Track Alignment
-* **Track 01: AI and Agent Observability:** Enforces OpenTelemetry GenAI Semantic Conventions (`gen_ai.usage.completion_tokens`, `llm.prompt.type`) to monitor Google Gemini token economics, inference latency, and remediation loop behavior.
-* **Track 03: Build Your Own:** Implements custom OTLP metric counters (`guru_recall_requests_total`) and business-logic span attributes (`study.subject`, `study.chapter`) to trace database health and syllabus progression dynamically.
-
 ---
 
 ## System Architecture
